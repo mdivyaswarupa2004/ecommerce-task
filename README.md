@@ -1,8 +1,11 @@
 # **E-Commerce Marketplace**
+
 ## **About the Project**
+
 This is an E-Commerce web application where users can browse and buy products online. Sellers can list their products, and buyers can add them to the cart, purchase them, and track their orders. The application provides a smooth and secure shopping experience.
 
 ## **Features**
+
 Homepage – Shows all available products and a search bar to find specific items.
 
 Add to Cart & Wishlist – Users can save products for later or add them directly to their cart.
@@ -14,6 +17,7 @@ My Orders – Users can view their past orders and track deliveries.
 User Profile – Users can manage their personal information and order history.
 
 ## **Tech Stack Used**
+
 This project is built using the following technologies:
 
 React.js -> Frontend (User Interface)
@@ -27,6 +31,7 @@ MySQL -> Database for storing users, products, and orders
 Git & GitHub -> Version Control & Collaboration
 
 ## **Prerequisites**
+
 Before you begin, ensure you have the following installed:
 
 Node.js (v14.0.0 )
@@ -42,8 +47,8 @@ MySQL Server
 
     cd ecommerce
 
+Install Dependencies
 
- Install Dependencies
 Backend:
 
     'cd backend'
@@ -64,8 +69,7 @@ Database Configuration
 
 3. Update the .env file with your database credentials:
 
-
-    DB_HOST=localhost
+     DB_HOST=localhost
 
     DB_USER=your_username
 
@@ -73,7 +77,7 @@ Database Configuration
 
     DB_NAME=ecommerce
 
-    ## **Project Structure**
+## **Project Structure**
 
     ecommerce-store/
 
@@ -86,6 +90,7 @@ Database Configuration
     │─ README.md        # Project documentation
 
 ## **Note**
+
 1. Create a new branch for each feature.
 
 2. Use descriptive branch names like feature/add-wishlist , bugfix/cart-calculation
@@ -101,4 +106,5 @@ Check database connection settings.
 Verify .env file configurations.
 
 ## *License*
+
 This project is licensed under the MIT License. You are free to use and modify it, but it comes with no warranty.
