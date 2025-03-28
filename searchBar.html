@@ -11,11 +11,18 @@
 
     <input type="text" id="search" placeholder="Search for a product...">
     <button onclick="searchProduct()">Search</button>
-
+    <p id="result"></p>
     <script>
         function searchProduct() {
             let query = document.getElementById("search").value;
-            alert("You searched for: " + query);
+            let result = document.getElementById("result");
+
+            if (query === "") {
+                result.textContent = "Please enter a product name."; 
+            } 
+            else {
+                result.textContent = "You searched for: " + query; 
+            }
         }
     </script>
 
